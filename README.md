@@ -1,5 +1,7 @@
 # CLO835-Assignment1-Application
 
+#Workflow Content
+
 name: Deploy to ECR
 
 on: 
