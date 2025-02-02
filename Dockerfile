@@ -18,7 +18,7 @@ RUN apt-get update -y
 COPY . /app
 WORKDIR /app
 RUN set -xe \
-    && apt-get update -y
+    && apt-get update -y \
     && apt-get install -y python3-pip \
     mysql-client \
     netcat \
